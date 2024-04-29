@@ -1,0 +1,75 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: hsl(202, 92%, 53%);
+    color: #fff;
+    padding: 20px;
+}
+
+.brand h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #2d88ff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    text-align: start;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.galeria-servicios,
+.galeria-flota {
+    display: flex;
+    width: 25px;
+    height: 310px;
+    justify-content: space-between;
+    margin-top: 20
+}
